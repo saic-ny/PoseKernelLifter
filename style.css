@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #6c757d;
+}
+
+section {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+    background-color: #fff;
+}
+@media (min-width: 768px) {
+    section {
+        padding-top: 6rem;
+        padding-bottom: 2rem;
+    }
+}
+
+section p:last-child {
+    margin-bottom: 0;
+}
+
+.container {
+    max-width: 80rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", Arial, sans-serif;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #343a40;
+}
+
+.subheading {
+    font-family: "Montserrat Light", Arial, sans-serif;
+    color: #6c757d;
+}
+
+pre code {
+    font-family: "Inconsolata", monospace;
+    color: #6c757d;
+}
+
+
+h1 {
+    font-size: 1.75rem;
+}
+h2 {
+    font-size: 1.5rem;
+}
+h3 {
+    font-size: 1.25rem;
+}
+h4 {
+    font-size: 1rem;
+}
+h5 {
+    font-size: 1rem;
+}
+h6 {
+    font-size: 0.75rem;
+}
+p {
+    font-size: 1rem;
+}
+pre code {
+    font-size: 1rem;
+}
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.75rem;
+    }
+    h4 {
+        font-size: 1.5rem;
+    }
+    h5 {
+        font-size: 1.25rem;
+    }
+    h6 {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 1.25rem;
+    }
+    pre code {
+        font-size: 1.25rem;
+    }
+}
+
+.video-player {
+    box-shadow: 3px 3px 4px 4px rgba(0,0,0,0.3);
+}
