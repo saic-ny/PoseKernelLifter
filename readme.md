@@ -19,6 +19,12 @@ PoseKernel dataset composes of acoustic impulse response data for a variety of 3
       ...
    
 ## Data format explanation
-audio_sensor_loc.npy: four rows; each row is one pair of speaker/microhphone location in the camera's frame (speaker and microphone are co-located)<br />
-rir.npy: four rows; each row is an impulse response (after compensating for the empty room's response) corresponding to one pair of speaker/mic. The speaker/mic order is the same as in audio_sensor_loc.npy. Each pair of speaker and microphone are synchronized. The sample rate of this impulse response is 96kHz. <br />
+audio_sensor_loc.npy: four rows; each row is one pair of speaker/microhphone location in the camera's frame (speaker and microphone are co-located)
+
+<br />
+
+rir.npy: four rows; each row is an impulse response (after compensating for the empty room's response) corresponding to one pair of speaker/mic. The speaker/mic order is the same as in audio_sensor_loc.npy. Each pair of speaker and microphone are synchronized. The sample rate of this impulse response is 96kHz. 
+
+<br />
+
 gnd.npy: groundtruth location of 3D body joints in the camera's frame. We use the joint order defined in Frankmocap. See https://github.com/facebookresearch/frankmocap/blob/main/docs/joint_order.md <br />
